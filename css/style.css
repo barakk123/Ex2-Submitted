@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header,footer {
+    width: 100%;
+}
+
+header, nav, main, footer, aside {
+    display: block;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+#logo {
+    background-image: url("../images/BarakD.png");
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    display: block;
+    padding-left: 85px;
+    padding-bottom: 30px;
+    color: #3E3F43;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #F9BDBD;
+    height: 555px;
+}
+
+.title-wrapper {
+    margin-left: 506px;
+    padding-top: 150px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.secondary {
+    position:relative;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.me {
+    height: 400px;
+    border-radius: 50px;
+}
+
+.rectangle {
+    position: absolute;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    left: 78px;
+    top: 200px;
+}
+
+.about {
+    position: relative;
+    top: 300px;
+    margin-left: 35px;
+    padding-bottom: 83px;
+}
+
+.about-text {
+    width: 710px;
+    line-height: 27px;
+    margin-top: 10px;
+    padding-bottom: 83px;
+}
+
+.exercise-square {
+    width: 200px;
+    height: 264px;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+
+.exercise-square.color1 {
+    background:#FDEDE5;
+}
+
+.exercise-square.color2 {
+    background:#EBF1FF;
+}
+
+.exercise-square.color3 {
+    background:#EBFFEC;
+}
+
+.exercise-square.color4 {
+    background:#FFEBFC;
+}
+
+.exercise-square.color5 {
+    background:#FFFEEB;
+}
+
+.exercise-num {
+    position: relative;
+    top: 128px;
+    left: 24px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.exercise-button {
+    position: relative;
+    top:100px;
+    left: 24px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.4s, opacity 0.4s;
+}
+
+.exercise-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.exercise-button:active {
+    opacity: 0.4;
+}
+
+.exercise-image {
+    position: relative;
+    right: 90px;
+    width: 75px;
+    border-radius: 50px;
+}
+
+.details {
+    position: relative;
+    top: 40px;
+}
+
+.det-list {
+    position: relative;
+    top: 24px;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 28.13px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    background-color: #cdcfd7;
+    margin-top: 90%;
+}
+
+.follow {
+    position: relative;
+    top: 32px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    color: #3E3F43;
+    margin-bottom: 16px;
+}
+
+.social {
+    position: relative;
+    top: 32px;
+    margin-left: 40px;
+    display: block;
+    text-decoration: none;
+    /*line-height: 40px;*/
+    font-size: 14px;
+    color: rgb(123, 121, 121);
+    width: 70px;
+    height: 30px;
+}
+
+.social2 {
+   
+    position: relative;
+    top: 60px;
+    margin-left: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(123, 121, 121);
+}
