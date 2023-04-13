@@ -31,50 +31,56 @@ h2 {
 }
 
 main {
-    background-color: #F9BDBD;
-    height: 555px;
+    display: block;
 }
 
 .title-wrapper {
-    margin-left: 506px;
-    padding-top: 150px;
+    margin-left: 40px;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 36px;
+    color: #3E3F43;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
 }
 
 .secondary {
-    position:relative;
-    font-size: 20px;
-    line-height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;  
+    margin-top: 18px;
 }
 
 .me {
-    height: 400px;
-    border-radius: 50px;
+    width: 426px;
+    height: 388px;
+    object-fit: cover;
 }
 
 .rectangle {
-    position: absolute;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
-    left: 78px;
-    top: 200px;
+    background-color: #F9BDBD;
+    display: flex;
+    height: 410px;
+    padding: 83px 0 84px 40px;
 }
 
 .about {
-    position: relative;
-    top: 300px;
-    margin-left: 35px;
-    padding-bottom: 83px;
+    margin-top: 24px; 
+    margin-left: 40px;
 }
 
 .about-text {
-    width: 710px;
-    line-height: 27px;
-    margin-top: 10px;
-    padding-bottom: 83px;
+    width: 741px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
 }
 
 .exercise-square {
@@ -82,7 +88,19 @@ main {
     height: 264px;
     border-radius: 25px;
     margin-right: 24px;
-    display: inline-block;
+}
+
+.exercises {
+   margin-top: 83px;
+}
+
+.boxes {
+    display: flex; 
+}
+
+.boxes2 {
+    display: flex; 
+    margin-bottom: 271px;
 }
 
 .exercise-square.color1 {
@@ -144,24 +162,22 @@ main {
 }
 
 .details {
-    position: relative;
-    top: 40px;
+   
+    margin-top: 83px;
 }
 
 .det-list {
     position: relative;
-    top: 24px;
+
     font-size: 20px;
     margin-left: 40px;
     line-height: 28.13px;
 }
 
 footer {
-    position: absolute;
     width: 100%;
     height: 301px;
     background-color: #cdcfd7;
-    margin-top: 90%;
 }
 
 .follow {
@@ -182,7 +198,6 @@ footer {
     margin-left: 40px;
     display: block;
     text-decoration: none;
-    /*line-height: 40px;*/
     font-size: 14px;
     color: rgb(123, 121, 121);
     width: 70px;
@@ -190,7 +205,6 @@ footer {
 }
 
 .social2 {
-   
     position: relative;
     top: 60px;
     margin-left: 40px;
